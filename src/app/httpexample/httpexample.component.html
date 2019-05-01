@@ -1,0 +1,9 @@
+<p>
+  httpexample works!
+</p>
+
+<button  mat-raised-button (click)="getUserInfo()">GET API</button>
+<mat-spinner [style.display]="loading ? 'block' : 'none'"></mat-spinner>
+<br>
+{{ profile | json }}
+

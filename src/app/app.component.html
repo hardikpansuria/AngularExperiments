@@ -1,0 +1,21 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<mat-toolbar  color="primary"  class="fixed-header">
+  <mat-toolbar-row>
+  <span><img  src="./assets/app_icon.png"  style="width:50px;"></span>
+  
+  <a  mat-button  routerLink="/customer-list"  routerLinkActive="active">Customers</a>
+  <a  mat-button  routerLink="/customer-create">Create Customer</a>
+  <a  mat-button  routerLink="/httpexample">HTTP Example</a>
+  <a  mat-button  routerLink="/pipeexample">Pipe Example</a>
+  <a mat-button routerLink="/templateform">Template Form</a>
+  <a mat-button routerLink="/reactiveform">Reactive Form</a>
+  
+  <a  mat-button  routerLink="/login">Login</a>
+  </mat-toolbar-row>
+  </mat-toolbar>
+  
+  <main>
+  <router-outlet  style="margin-top: 80px;"></router-outlet>
+  </main>
+
+
